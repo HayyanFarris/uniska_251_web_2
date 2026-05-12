@@ -45,7 +45,7 @@ $result = mysqli_fetch_all($query, MYSQLI_ASSOC);
 
                         <!-- Search -->
                         <form action="" method="post" class="d-flex gap-2">
-                            <input type="text" name="cari" class="form-control" placeholder="Cari.....">
+                            <input type="text" name="cari" class="form-control " style="width: 350px;" placeholder="Cari.....">
                             <button type="submit" class="btn btn-secondary">Cari</button>
                         </form>
 

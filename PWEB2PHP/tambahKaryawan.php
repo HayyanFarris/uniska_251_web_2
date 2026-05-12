@@ -16,8 +16,8 @@
 <body>
   <?php
   $hariini= strtotime(date('Y-m-d'));
-  $maxDate = date('Y-m-d', strtotime("-45 years", $hariini));
-  $minDate = date('Y-m-d', strtotime("-17 years", $hariini));
+  $maxDate = date('Y-m-d', strtotime("-17 years", $hariini));
+  $minDate = date('Y-m-d', strtotime("-45 years", $hariini));
   ?>
   <div class="container">
     <h1>Tambah Data Karyawan</h1>
